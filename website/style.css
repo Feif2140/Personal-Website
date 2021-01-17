@@ -99,7 +99,7 @@ a {
 }
 
 .filler {
-    padding: 50px;
+    padding: 20px;
     align-items: center;
     text-align: center;
 }
@@ -112,9 +112,38 @@ a {
 .info {
     width: 100%;
     font-size: 17px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    padding:10px;
+    margin-block-start: 3em;
+    margin-block-end: 3em;
+    padding:50px;
+}
+
+.box{
+    display: table;
+}
+.box2{
+    display: table-row;
+}
+
+.explanations{
+    vertical-align: middle;
+    display: table-cell;
+    width:60%;
+}
+
+.project-pics{
+    vertical-align: middle;
+    display: table-cell;
+    
+    padding:20px;
+}
+
+.project-pics img {
+    width:100%;
+    height: auto;
+}
+
+.bottom {
+    text-align: center;
 }
 
   @media only screen and (max-width: 1000px)and (orientation: portrait){
@@ -141,6 +170,9 @@ a {
 
     .info {
         font-size: 25px ;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        padding:10px;
     }
 
     .changecolor{
@@ -158,4 +190,6 @@ a {
         text-decoration: none;
         font-size: 30px;
       }
+
+    
 }

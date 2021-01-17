@@ -10,8 +10,7 @@
 
         <link href="style.css" rel="stylesheet"
         type="text/css"/>
-        <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
     </head>
 
@@ -19,17 +18,15 @@
         <div class="topnav" id="myTopnav">
             <a href="#home" class="active">Home</a>
             <a href="#aboutme">About Me</a>
+            <a href="#projects">Projects</a>
             <a href="./Resume - Yanni Wang.pdf" target="blank">Resume</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i>
             </a>
             <a class="topnav" onclick=togglemode() id="darkmode">Toggle Light/Dark Mode</a> 
-
         </div>
 
-        <div class="topgap" id="home">
-            
-        </div>
+        <div class="topgap" id="home"></div>
 
         <div class="main_pic" > 
             <div>
@@ -46,7 +43,9 @@
             <a href="#aboutme"><img class="arrow" src="./downarrow.png" ></a>
         </div>
 
-        <div class="info" id="aboutme">
+        <br><br id="aboutme"><br>
+
+        <div class="info" >
             <div>
                 <h3>Hello,</h3>
                 my name is Yanni and welcome to my website!
@@ -54,11 +53,77 @@
                 I am an aspiring software engineer with and interest in fintech. 
                 Work aside, some of my hobbies include skatboarding, playing sports, and video games.
             </div>
-
-            <div>
-
-            </div>
         </div>
+
+        <br><br id="projects"><br>
+
+        <div class="info"> 
+            <h3>My Projects</h3>
+                Since first being introduced to CS last year, I've been able to code a handful of projects both as a method of mastering 
+                the languages and a way to showcase my programming capabilities. Here are some of my favorite solo projects:)
+
+            <br><br>
+        <div class="box">
+            <div class="box2">
+            <div class="explanations">
+                <h5>Game-Picker Discord Bot</h5>
+                I coded a Discord Bot using the discord.py API that is capable of computing for the best game to play between a group of friends.
+                The bot works by having users input their games with a numerial rank with 1 being the game they want to play the most, 
+                then adding up the ranks for each game given by all the friends and returning games with the lowest summed rank. 
+                <br> <br>
+                The inspiration for this bot came from a personal dilemma. Often times when me and my friends wanted to hang out and play
+                video games, we would spend forever deciding on a game. So I decided to code a bot that would make the tough decision for us
+                so that we could skip to the fun part of just playing! Even though the bot was created to rank games there's no restriction
+                to use the bot to choose: movies, sports, dinner ideas etc. 
+            </div>
+            <div class="project-pics"><img src="game-picker-bot.png" object-fit:cover></div>
+            </div>
+        </div>  
+
+            <br><br><br>
+
+        <div class="box">
+            <div class="box2">
+            <div class="explanations">
+                <h5>Geo Calculator</h5>
+                I built an interactive graphical calculator GUI in Java Swing using OOP principles to visually demonstrate math concepts.
+                This app allows users to draw numerous line-segments and circles, and change the axis origin using their mouse pointer.
+                You can also get relevant mathematical information which changes with the origin location such as:
+                    <ul>
+                        <li>Points of Intersection</li>
+                        <li>The equation to the line-segment or circle</li>
+                        <li>Start/End Point coordinates</li>
+                        <li>Circle Radius</li>
+                    </ul>
+            </div>
+            <div class="project-pics"><img src="geo-calculator.png" object-fit:cover></div>
+            </div>
+        </div>  
+
+        <br><br><br>
+
+        <div class="box">
+            <div class="box2">
+            <div class="explanations">
+                <h5>Math Worksheet Generator</h5>
+                I created a GUI in Java Swing using OOP principles that randomly generates math questions to solve. 
+                There are multiple ways to customize the questions that you can get such as operator type and
+                the number of digits you want to work with (ones tens or hundreds)
+                
+            </div>
+            <div class="project-pics"><img src="math-worksheet.png" object-fit:cover></div>
+            </div>
+        </div>  
+
+        </div>
+
+        <div class="bottom">
+            <div><a href="https://www.linkedin.com/in/yanniwang2140/"><img class="logo" src="linkedinlogo.png"></a>
+                <a href="https://github.com/Feif2140"><img class="logo" src="githublogo.png"></a>
+                <a href="mailto: yanni.wang@uwaterloo.ca"><img class="logo" src="emaillogo.png"></a></div>
+        </div>
+
+
 
         <script src="script.js"></script>
 
